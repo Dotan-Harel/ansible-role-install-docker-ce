@@ -1,0 +1,5 @@
+---
+# defaults file for docker
+docker_ce_version: docker-ce=17.12.1~ce-0~ubuntu
+remote_user: ubuntu
+

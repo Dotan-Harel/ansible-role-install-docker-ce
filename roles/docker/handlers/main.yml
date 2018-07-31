@@ -1,0 +1,9 @@
+---
+# handlers file for docker
+ 
+# sudo systemctl enable docker
+- name: Start docker on boot
+  systemd:
+    name: docker
+    state: started
+    enabled: yes

@@ -1,0 +1,9 @@
+---
+# sudo groupadd docker
+- name: Create "docker" group
+  group:
+    name: docker
+    state: present
+  tags:
+    - docker
+
