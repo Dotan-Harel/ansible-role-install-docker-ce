@@ -1,5 +1,5 @@
 ---
-- name: Insatll docker-ce and docker-compose
+- name: Insatll docker-ce
   hosts: "{{ host }}"
   remote_user: root
   become: yes
